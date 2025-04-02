@@ -2,6 +2,6 @@ tensorflow
 numpy
 pandas
 tqdm
-pickle
 matplotlib
 dill
+pytest
