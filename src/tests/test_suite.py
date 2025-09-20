@@ -1,3 +1,32 @@
+#!/usr/bin/env python
+# coding: utf-8
+"""
+Comprehensive Test Suite for Paraphrase NMT Project
+
+This test suite provides comprehensive testing coverage for all major components
+of the paraphrase neural machine translation system. It includes unit tests,
+integration tests, and validation tests for the configuration, data processing,
+model architecture, and utility functions.
+
+Features:
+- Configuration validation tests
+- Data preprocessing pipeline tests
+- Model architecture tests (encoder/decoder)
+- Utility function tests
+- Integration tests for data pipeline
+- Comprehensive error handling validation
+
+Usage:
+    Run all tests: pytest
+    Run with coverage: pytest --cov=src --cov-report=html
+    Run specific test file: pytest src/tests/test_suite.py
+
+Test Categories:
+- config.py: Configuration parameter validation
+- utils.py: Text preprocessing and utility functions
+- models.py: Neural network architecture components
+- data.py: Data loading and preprocessing pipeline
+"""
 import os
 import tempfile
 import numpy as np
